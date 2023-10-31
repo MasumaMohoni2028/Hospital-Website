@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Welcome to Mn Hospital. A hospital for proper service.">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>MN Hospital - We are here to help</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="/images/Hlogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="MN Hospital Logo">
+      MN Hospital
+    </a>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="/templates/about.html">About</a>
+        </li>
+
+
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/templates/teleconsultation.html">Teleconsultation</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/templates/corona.html">CORONA</a>
+      </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="/templates/more.html">More</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/contact.html">Contact Us</a>
+        </li>
+
+
+      </ul>
+      
+  </nav>
+  <div class="container my-4">
+    <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Medicines.. <span class="text-muted">You'll be inspired!</span></h2>
+            <p class="lead">Drugs are classified in many ways. One of the key divisions is by level of control, which distinguishes
+               prescription drugs (those that a pharmacist dispenses only on the order of a physician, physician assistant,
+                or qualified nurse) from over-the-counter drugs (those that consumers can order for themselves). Another key
+                 distinction is between traditional small molecule drugs, usually derived from chemical synthesis, 
+                 and biopharmaceuticals, which include recombinant proteins, vaccines, blood products used therapeutically 
+                 (such as IVIG), gene therapy, monoclonal antibodies and cell therapy (for instance, stem cell therapies). 
+                 Other ways to classify medicines are by mode of action, route of administration, biological system affected, 
+                 or therapeutic effects. An elaborate and widely used classification system is the Anatomical Therapeutic 
+                 Chemical Classification System. The World Health Organization keeps a list of essential medicines. </p>
+        </div>
+        <div class="col-md-5">
+            <img class="img-fluid" src="/images/med.jpg" alt="">
+
+        </div>
+    </div>
+  <div class="container-lg">
+    <h1>Medicines</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Medicine</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vyndaqet</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Meltformin</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Crocin</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Losagen</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td> Angilock</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Hyperten</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Amlovs</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>Valsartan</td>
+                <td>35</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="container-fluid">
+  <h1>Item Total Calculator</h1>
+
+  <div class="row">
+      <div class="col-md-4">
+          <div class="form-group">
+              <label for="itemName">Item Name</label>
+              <input type="text" class="form-control" id="itemName" placeholder="Item Name">
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="form-group">
+              <label for="itemQuantity">Quantity</label>
+              <input type="number" class="form-control" id="itemQuantity" placeholder="Quantity">
+          </div>
+      </div>
+      <div class="col-md-6">
+          <button id="addItem" class="btn btn-success">Add Item</button>
+      </div>
+  </div>
+
+  <ul id="itemList" class="list-group mt-3"></ul>
+
+  <p id="total" class="mt-3"><h1>Total: <span id="totalAmount">0</span><h1></p>
+</div>
+</div>
+<div class="form-group col-md-4">
+    
+
+    <form>
+        <div class="form-group">
+            <label for="paymentMethod">Select payment method:</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-money-check-alt"></i></span>
+                </div>
+                <select class="form-control" id="paymentMethod">
+                    <option>Bkash - +880130xxxxxxx</option>
+                    <option>Nagad - +88019xxxxxxxx</option>
+                    <option>Upay - +88016xxxxxxxx</option>
+                    <option>Card</option>
+                </select>
+            </div>
+        </div>
+    </form>
+
+    <button class="btn btn-success">Submit</button>
+</div>
+
+    <!-- ... (your existing footer) ... -->
+
+    <!-- Include the external JavaScript file -->
+    <script src="js/item.js"></script>
+  <footer class="container">
+    <p class="float-right"><a href="/index.html">Back to top</a></p>
+    <p>© 2022-2023 MN Hospital, Inc. · <a href="/templates/privacy.html">Privacy</a> · <a
+        href="/templates/terms.html">Terms</a></p>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="/js/item.js"></script>
+
+</body>
+
+</html>
