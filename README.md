@@ -3,12 +3,10 @@ MN Hospital Website
 Welcome to the MN Hospital Website repository. This website is designed to provide essential information about our hospital's services, facilities, and healthcare professionals.
 
 
-Table of Contents
+Table of Contents:
 Introduction
-Features
 Getting Started
-Contributing
-License
+
 
 Introduction: This is an website built of html,css,java script, bootstrap which gives various fascilities to the users and online medical treatment to the fpatients.
 
